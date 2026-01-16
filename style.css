@@ -1,9 +1,32 @@
+*,
+*::before,
+*::after {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+
 body {
+	font-family: "Space Grotesk", sans-serif;
+	background-color: #050609;
+	color: #fff;
 }
 
 .profile-card {
 	width: 500px;
 	margin: 100px auto 0;
+	background-color: #226ce0;
+	display: flex;
+	flex-direction: column;
+	gap: 50px;
+}
+
+.profile-header {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	gap: 10px;
+	padding-top: 20px;
 }
 
 .profile-avatar {
@@ -12,7 +35,26 @@ body {
 	aspect-ratio: 1 / 1;
 }
 
+.bio-line {
+	display: block;
+}
+
 .links-container {
 	display: flex;
 	flex-direction: column;
+	gap: 20px;
+}
+
+.link-button {
+	display: flex;
+	gap: 40px;
+	text-decoration: none;
+	color: inherit;
+}
+
+.social-icon {
+	width: 24px;
+	height: 24px;
+	display: block;
+	flex-shrink: 0;
 }
