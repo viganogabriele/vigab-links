@@ -8,8 +8,8 @@
 
 body {
 	font-family: "Space Grotesk", sans-serif;
-	background-color: #050609;
-	color: #fff;
+	background-color: #1a1b26;
+	color: #c0caf5;
 }
 
 .profile-card {
@@ -19,7 +19,7 @@ body {
 	width: 500px;
 	height: 500px;
 	margin: 100px auto 0;
-	background-color: #226ce0;
+	background-color: #24283b;
 	border-radius: 40px;
 }
 
@@ -47,6 +47,8 @@ body {
 .bio-line {
 	display: block;
 	text-align: center;
+	line-height: 1.5;
+	color: #565f89;
 }
 
 .links-container {
@@ -60,11 +62,11 @@ body {
 	display: flex;
 	align-items: center;
 	justify-content: center;
-	width: 350px;
+	width: 400px;
 	height: 50px;
 	margin: 0 auto;
-	background-color: blue;
-	border-radius: 20px;
+	background-color: #414868;
+	border-radius: 40px;
 	color: inherit;
 	text-decoration: none;
 }
