@@ -3,16 +3,32 @@
 
 <head>
     <script>
-        /* Check if we are NOT on localhost. 
-           If so, inject the base tag for production assets.
-        */
         if (window.location.hostname !== 'localhost' && window.location.hostname !== '127.0.0.1') {
             document.write('<base href="https://vigab-links.vercel.app/">');
         }
     </script>
+
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Gabriele Viganò - Links</title>
+
+    <title>Gabriele Viganò | Links</title>
+    <meta name="description"
+        content="Computer Engineering Student at Politecnico di Milano & Board Member at PoliNetwork.">
+
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://vigab.cc/">
+    <meta property="og:title" content="Gabriele Viganò | Links">
+    <meta property="og:description"
+        content="Computer Engineering Student @Politecnico di Milano. Explore my projects and social profiles.">
+    <meta property="og:image" content="https://vigab-links.vercel.app/assets/avatar.png">
+
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:url" content="https://vigab.cc/">
+    <meta name="twitter:title" content="Gabriele Viganò | Links">
+    <meta name="twitter:description"
+        content="Computer Engineering Student @Politecnico di Milano. Explore my projects and social profiles.">
+    <meta name="twitter:image" content="https://vigab-links.vercel.app/assets/avatar.png">
+
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300..700&display=swap" rel="stylesheet">
