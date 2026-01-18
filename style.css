@@ -7,6 +7,10 @@
 }
 
 body {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	min-height: 100vh;
 	font-family: "Space Grotesk", sans-serif;
 	background-color: #1a1b26;
 	color: #c0caf5;
@@ -19,7 +23,6 @@ body {
 	width: 500px;
 	max-width: 90%;
 	height: auto;
-	margin: 100px auto;
 	padding-bottom: 40px;
 	background-color: #24283b;
 	border-radius: 40px;
