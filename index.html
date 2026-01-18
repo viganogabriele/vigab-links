@@ -3,8 +3,19 @@
 
 <head>
     <script>
+        // Detect if we are on the beta subdomain
+        const isBeta = window.location.hostname.includes('beta');
+
+        // Decide the base URL
+        let baseUrl = "https://vigab-links.vercel.app/";
+
+        if (isBeta) {
+            // Replace this with the specific Vercel URL for your beta links branch
+            baseUrl = "https://vigab-links-git-beta-viganogabriele.vercel.app/";
+        }
+
         if (window.location.hostname !== 'localhost' && window.location.hostname !== '127.0.0.1') {
-            document.write('<base href="https://vigab-links.vercel.app/">');
+            document.write(`<base href="${baseUrl}">`);
         }
     </script>
 
