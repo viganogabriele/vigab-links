@@ -16,12 +16,19 @@ body {
 	color: #c0caf5;
 }
 
+.page-wrapper {
+	width: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
 .profile-card {
 	display: flex;
 	flex-direction: column;
 	gap: 40px;
-	width: 500px;
-	max-width: 90%;
+	width: 85%;
+	max-width: 500px;
 	height: auto;
 	padding-bottom: 40px;
 	background-color: #24283b;
