@@ -11,8 +11,11 @@ body {
 	justify-content: center;
 	align-items: center;
 	min-height: 100vh;
+	@supports (min-height: 100dvh) {
+		min-height: 100dvh;
+	}
 	font-family: "Space Grotesk", sans-serif;
-	background-color: #1a1b26;
+	background-color: red;
 	color: #c0caf5;
 }
 
